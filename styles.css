@@ -1,0 +1,35 @@
+h1 {
+  font-family: "Caveat", cursive;
+  font-weight: 400;
+  margin: 0;
+  font-size: 35px;
+}
+body {
+  margin: 0;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+}
+
+.profile-img {
+  width: 150px;
+  border-radius: 100%;
+}
+
+.header-intro {
+  text-align: center;
+}
+
+.header-wrapper {
+  box-shadow: 0 8px 10px 0 rgb(131, 131, 131);
+  display: flex;
+  background: #1d2226;
+  color: white;
+  justify-content: space-around;
+  padding: 20px;
+  width: 400px;
+  margin: 20px auto 0 auto;
+  border-bottom: 10px solid #0075d4;
+}
